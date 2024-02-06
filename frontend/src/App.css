@@ -1,0 +1,70 @@
+*{
+  margin-top: 0;
+  padding: 0;
+  
+}
+
+body{
+  font-family: 'Times New Roman', Times, serif;
+  background-image: url(https://res.cloudinary.com/practicaldev/image/fetch/s--BuPz-p40--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/nphrgz8yfnjylrwfr0yl.png);
+}
+
+.container{
+  max-width: 600px;
+  margin-left: 400px;
+  margin-top: 50px;
+  background-color: #fff;
+  padding: 2rem 1rem 5rem;
+}
+
+h1{
+  margin-top: 1rem;
+  text-align: center;
+  color: rgb(45, 45, 224);
+}
+
+.top{
+  display: flex;
+  gap: 5rem;
+  justify-content: center;
+  padding: 10px;
+}
+
+input{
+  border: none;
+  outline: none;
+  width: 400px;
+  padding: 0.5rem;
+  border-bottom: 1px solid rgb(80, 80, 224);
+}
+
+.add{
+  background-color:rgb(80, 80, 224);
+  color: #fff;
+  padding: 0.5rem 1.5rem;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.todo{
+  position: relative;
+  margin-top: 1rem;
+  background-color: rgb(169, 169, 226);
+  color: black;
+  padding: 1.5rem 3rem;
+  border-radius: 5px;
+}
+
+.icons{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 20px;
+    display: flex;
+    gap: 0.5rem;
+}
+
+.icon{
+  cursor: pointer;
+  font-size:20px;
+}
